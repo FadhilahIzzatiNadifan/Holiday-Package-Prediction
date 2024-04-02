@@ -12,7 +12,6 @@ AgeStructure is created by binning the feature age based on reference age struct
 15-24 years : early working age
 25-54 years : prime working age
 55-64 years : mature working age
-
 MarketingCost is created using DurationOfPitch, NumberOfFollowups and assuming that PhoneRate = 0.5
 MarketingCost = DurationOfPitch x NumberOfFollowups x PhoneRate
 
