@@ -15,11 +15,14 @@ This dataset has 4.888 rows and 21 features, including target and ID. Here are t
 
    MarketingCost is created using DurationOfPitch, NumberOfFollowups and assuming that             PhoneRate = 0.5
    MarketingCost = DurationOfPitch x NumberOfFollowups x PhoneRate
+   
 3.	Missing Values
     There are at least 15.5% of rows with at least 1 missing value. To handle this issue,           missing values in numerical features are replaced by the median and missing values in           categorical features are replaced by the mode.
-4.	Duplicated data
+  	
+5.	Duplicated data
     There are 99 duplicate data in data train and 3 duplicate data in data test. We remove all      duplicate data.
-5.	Outliers
+  	
+7.	Outliers
     We tracked the outliers using the IQR method. The number of outliers in each feature was as     follows. 
     ![image](https://github.com/FadhilahIzzatiNadifan/Holiday-Package-Prediction/assets/93127350/16efcf56-7424-4024-831e-5687b4c5f7b2)
 
