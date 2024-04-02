@@ -1,1 +1,3 @@
 # Holiday-Package-Prediction
+## Background
+Trips and Travel Company is a company based in Saudi Arabia. Saudi Arabia's tourism shows an increasing revenue every year. This should be an opportunity for the company to increase the conversion rate. Therefore, the company plans to offer a new product called "Wellness Tourism Package" to customers through telemarketing. The marketing team contacted customers randomly, but this action was not effective, it is indicated by the conversion rate customers took the product was very low, and the other hand it caused high telemarketing cost, customer pitching through telemarketing cost company up to SAR 133,072.5 in one year.
