@@ -48,5 +48,10 @@ This dataset has 4.888 rows and 21 features, including target and ID. Here are t
 
       The target, ProdTaken, has an imbalanced problem between the value 0 and 1, that is, the value 0 is greater than 1. We handle this situation with SMOTE.
 
+## Modeling
+In this case, the company’s problem is an ineffective marketing strategy that leads to higher costs than it should be. The goal of this modeling is to predict potential customers in order to minimize the cost of mis-pitching to customers who are not potential. However, the marketing team also does not want to lose too many opportunities by accurately predicting potential customers. Therefore, the value of both Type I and Type II error is considered. The best model selection is based on the highest Precision Metric. Learning result on the training set are validated using the K-fold cross validation technique. Hyperparameter tuning in Logistic Regression and KNN models cannot overcome overfitting or improve model performance. The model comparison is obtained as follows.
+![image](https://github.com/FadhilahIzzatiNadifan/Holiday-Package-Prediction/assets/93127350/31cec4d9-3b82-429b-9c1a-9499ab60e382)
 
+![image](https://github.com/FadhilahIzzatiNadifan/Holiday-Package-Prediction/assets/93127350/7272ff0d-ff91-491f-b17e-c5a55fa43941)
 
+The KNN and XGBoost models were not selected as the best model, despite having the highest precision metric, because both models experienced overfitting. Therefore, Random Forest model became the best fitting model.
