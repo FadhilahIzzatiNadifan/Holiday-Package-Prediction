@@ -5,7 +5,7 @@ Trips and Travel Company is a company based in Saudi Arabia. Saudi Arabia's tour
 ## Data Preparation
 This dataset has 4.888 rows and 21 features, including target and ID. Here are the preparations for the train data and the test data as follows.
   1.	Change Incorrect Value
-      In the datset there are 10 numerical and 9 categorical features. Among these features,          there are 2 features that have input errors. In the feature Gender, the value Fe Male           should be Female and ambiguous values in the feature MaritalStatus, the values Unmarried        and Single, which are both finally replaced by Single.
+      In the datset there are 10 numerical and 9 categorical features. Among these features,          there are 2 features that have input errors. In the feature Gender, the value Fe Male           should be       Female and ambiguous values in the feature MaritalStatus, the values Unmarried        and Single, which are both finally replaced by Single.
 2.	Feature extraction
     We make 2 features that are AgeStructure dan MarketingCost.
     AgeStructure is created by binning the feature age based on reference age structure in          Saudi Arabia  which is as follows
